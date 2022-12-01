@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
+
+.treatment {
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+.treatment:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/treatment-bg2.jpg') no-repeat center center/cover;
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.treatment .content {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    left: 0;
+    padding: 25px;
+
+}
+
+.treatment h1 {
+    color: white;
+    text-align: left;
+}
+
+.treatment p {
+    color: #f8f8f8;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.keyAreas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.keyAreas-description {
+    width: 700px;
+    margin: 1rem;
+}
+
+.keyAreas-description p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.keyAreas-image {
+    width: 700px;
+    margin: 1rem;
+}
+
+.keyAreas-image video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 2rem;
+ 
+
+}
+
+.activities-description {
+    width: 700px;
+}
+
+.activities-description p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.activities-image {
+    width: 700px;
+}
+
+.activities-image video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:940px) {
+    .treatment .content {
+    width: 100%;
+    }
+
+    .treatment p {
+        font-size: 14px;
+    }
+
+    .treatment h1 {
+        font-size: 1.5rem;
+    }
+
+    .keyAreas h1 {
+    font-size: 1.5rem;
+    ;
+}
+
+    .activities h1 {
+    font-size: 1.5rem;
+    }
+    
+    .activities-image video {
+       display: none;
+    }
+
+
+}

@@ -1,0 +1,95 @@
+.InsuranceSection {
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0);
+}
+
+
+.InsuranceSection .content {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.InsuranceSection .container p {
+    text-align: center;
+}
+
+.InsuranceSection .content p {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.InsuranceSection .content h2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0rem;
+}
+
+.insurance-thumbnail img {
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+}
+
+.InsuranceSection .flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.form-cta {
+    text-align: center;
+}
+
+.form-cta p {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+/*  */
+
+@media screen and (max-width: 940px) {
+    .InsuranceSection .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        /* background: rgba(255, 255, 255, .7); */
+    }
+
+
+    .InsuranceSection h1 {
+        font-size: 2rem;
+    }
+
+    .InsuranceSection p {
+        font-size: 15px;
+    }
+
+    .InsuranceSection h2 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

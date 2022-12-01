@@ -1,0 +1,82 @@
+.contactForm-mainContainer {
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+
+}
+
+.contactForm-mainContainer:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/footer-bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location p {
+    color: white;
+}
+
+.contactForm h1 {
+    margin-top: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.location h1 {
+    color: white;
+}
+
+.contactForm .admission {
+    margin-bottom: 5rem;
+}
+
+.contact-container form {
+    height: 37rem;
+    width: 300px;
+    background: url('../../assets/mission-bg.jpg')no-repeat center center/cover;
+    border-radius: 1rem;
+}
+
+.email-input {
+    height: 10rem;
+}
+
+.submit-btn button {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+
+
+/* 940px */
+@media screen and (max-width: 940px) {
+
+    .contactForm-mainContainer iframe {
+        display: none;
+    }
+
+    .contactForm .admission {
+        margin-bottom: 0;
+    }
+    
+    }
+
+
+/* 400px */
+@media screen and (max-width: 400px) {
+    .contactForm-mainContainer {
+        height: 145vh;
+    }
+    
+    }
