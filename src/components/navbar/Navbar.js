@@ -14,8 +14,8 @@ const Navbar = () => {
             <div className="container">
                 
                 <div className="logo">
-                    <Link to='/'>
-                    <img src={logo} className="App-logo" alt="logo" />
+                <Link to='/'>
+                    <img src={logo} width="200px" height="75px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 

@@ -21,9 +21,7 @@
     justify-content: center;
 }
 
-.logo-footer img{
-    width: 20%;
-}
+
 
 
 .footer .top {
@@ -122,9 +120,6 @@
         grid-column: 1 / span 2;
     }
 
-    .logo-footer img{
-        width: 50%;
-    }
 }
 
 

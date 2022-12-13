@@ -13,14 +13,15 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <Link to='/'>
+                    <img src={logo} width="200px" height="75px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    </Link>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
                     </LinkRoll>
 
-                </div>
-                <div className="col-container">
+                </div>                <div className="col-container">
                     <div className="col">
                         <h3>Navigation</h3>
                         
