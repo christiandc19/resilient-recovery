@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resilient-recovery/static/css/main.41251b50.css",
-    "main.js": "/resilient-recovery/static/js/main.01f8706d.js",
+    "main.css": "/resilient-recovery/static/css/main.574768a2.css",
+    "main.js": "/resilient-recovery/static/js/main.c62017ac.js",
     "static/media/hero-vbg.mp4": "/resilient-recovery/static/media/hero-vbg.7f7e7ca68b618a6437b6.mp4",
     "static/media/mission-bg.jpg": "/resilient-recovery/static/media/mission-bg.6a37f61a8155bc6b8d1f.jpg",
     "static/media/insurance-bg.jpg": "/resilient-recovery/static/media/insurance-bg.7a0dff9db0adcc66f635.jpg",
@@ -25,13 +25,14 @@
     "static/media/cigna.png": "/resilient-recovery/static/media/cigna.b83d58397cc1db701f50.png",
     "static/media/umr.png": "/resilient-recovery/static/media/umr.d1881860194badb8f407.png",
     "static/media/optima.png": "/resilient-recovery/static/media/optima.7b4429e5e6c6a632b8cd.png",
+    "static/media/anthem.png": "/resilient-recovery/static/media/anthem.f94082dd511baedda048.png",
     "static/media/optum.png": "/resilient-recovery/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/resilient-recovery/index.html",
-    "main.41251b50.css.map": "/resilient-recovery/static/css/main.41251b50.css.map",
-    "main.01f8706d.js.map": "/resilient-recovery/static/js/main.01f8706d.js.map"
+    "main.574768a2.css.map": "/resilient-recovery/static/css/main.574768a2.css.map",
+    "main.c62017ac.js.map": "/resilient-recovery/static/js/main.c62017ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.41251b50.css",
-    "static/js/main.01f8706d.js"
+    "static/css/main.574768a2.css",
+    "static/js/main.c62017ac.js"
   ]
 }
