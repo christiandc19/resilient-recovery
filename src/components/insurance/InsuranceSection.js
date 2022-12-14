@@ -11,6 +11,7 @@ import Umr from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
 import Optum from '../../assets/optum.png'
 import Horizon from '../../assets/horizon.png'
+import Anthem from '../../assets/anthem.png'
 
 
 
@@ -58,7 +59,7 @@ const InsuranceSection = () => {
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={Optima} alt="Cigna Logo" loading="lazy" />
+                            <img src={Optima} alt="Optima Logo" loading="lazy" />
                         </div>
                     </Fade>
 
@@ -70,22 +71,27 @@ const InsuranceSection = () => {
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={United} alt="Cigna Logo" loading="lazy" />
+                            <img src={United} alt="United Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={Optum} alt="UMR Insurance Logo" loading="lazy" />
+                            <img src={Optum} alt="Optum Insurance Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={Horizon} alt="Cigna Logo" loading="lazy" />
+                            <img src={Horizon} alt="Horizon Insurance Logo" loading="lazy" />
                         </div>
                     </Fade>
 
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Anthem} alt="Anthem Insurance Logo" loading="lazy" />
+                        </div>
+                    </Fade>
 
 
                 </div>

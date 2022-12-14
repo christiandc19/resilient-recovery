@@ -13,7 +13,7 @@ function App() {
       <Home />
       <ServicesCards />
       <InsuranceSection />
-      {/* <ContactForm /> */}
+      <ContactForm />
       <Footer />
     </>
   );

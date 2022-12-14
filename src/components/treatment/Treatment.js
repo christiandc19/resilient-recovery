@@ -78,7 +78,7 @@ const Treatment = () => {
 
 
 
-            <div className='activities'>
+            <div className='container activities'>
                 <div className='activities-description'>
                         <br />
                         <Fade right>
@@ -106,7 +106,7 @@ const Treatment = () => {
                         <p><MdPool /> Community pool</p>
                         <p><MdVolunteerActivism /> Sober events/fundraisers </p>
                         <br />
-                        <p>For more information about our addiction treatment programs, please contact Joser Forever Treatment Facilty today.</p>
+                        <p>For more information about our addiction treatment programs, please contact Resilient Recovery Treatment Facilty today.</p>
 
                         <div>
                                 <button><a href='818-746-6867'>818-746-6867</a></button>
