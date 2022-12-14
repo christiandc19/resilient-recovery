@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resilient-recovery/static/css/main.e96440e5.css",
-    "main.js": "/resilient-recovery/static/js/main.822c7433.js",
+    "main.css": "/resilient-recovery/static/css/main.41251b50.css",
+    "main.js": "/resilient-recovery/static/js/main.01f8706d.js",
     "static/media/hero-vbg.mp4": "/resilient-recovery/static/media/hero-vbg.7f7e7ca68b618a6437b6.mp4",
     "static/media/mission-bg.jpg": "/resilient-recovery/static/media/mission-bg.6a37f61a8155bc6b8d1f.jpg",
     "static/media/insurance-bg.jpg": "/resilient-recovery/static/media/insurance-bg.7a0dff9db0adcc66f635.jpg",
@@ -17,19 +17,21 @@
     "static/media/rr-logo.png": "/resilient-recovery/static/media/rr-logo.16510f1e5ecfcc71820b.png",
     "static/media/clinic.jpg": "/resilient-recovery/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
     "static/media/form.pdf": "/resilient-recovery/static/media/form.a776fe0770557cfef20d.pdf",
-    "static/media/mhn.png": "/resilient-recovery/static/media/mhn.355f6f9c947de530f3db.png",
+    "static/media/horizon.png": "/resilient-recovery/static/media/horizon.30c14e6f67cb5066fc6b.png",
     "static/media/beacon.png": "/resilient-recovery/static/media/beacon.1508237aac3182ac96e8.png",
-    "static/media/molina-healthcare.png": "/resilient-recovery/static/media/molina-healthcare.02bb9c11359036acc206.png",
     "static/media/united-healthcare.png": "/resilient-recovery/static/media/united-healthcare.78400c2f51fba67d0aff.png",
     "static/media/aetna.png": "/resilient-recovery/static/media/aetna.e3fd9d85734b8a724f66.png",
     "static/media/bluecross.png": "/resilient-recovery/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/resilient-recovery/static/media/cigna.b83d58397cc1db701f50.png",
+    "static/media/umr.png": "/resilient-recovery/static/media/umr.d1881860194badb8f407.png",
+    "static/media/optima.png": "/resilient-recovery/static/media/optima.7b4429e5e6c6a632b8cd.png",
+    "static/media/optum.png": "/resilient-recovery/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/resilient-recovery/index.html",
-    "main.e96440e5.css.map": "/resilient-recovery/static/css/main.e96440e5.css.map",
-    "main.822c7433.js.map": "/resilient-recovery/static/js/main.822c7433.js.map"
+    "main.41251b50.css.map": "/resilient-recovery/static/css/main.41251b50.css.map",
+    "main.01f8706d.js.map": "/resilient-recovery/static/js/main.01f8706d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e96440e5.css",
-    "static/js/main.822c7433.js"
+    "static/css/main.41251b50.css",
+    "static/js/main.01f8706d.js"
   ]
 }
