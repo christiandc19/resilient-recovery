@@ -14,7 +14,7 @@ const Op = () => {
                     <Fade bottom>
                     <p>The least intensive program we provide, the outpatient program does not require overnight stays at our facilities. And although there is less time required for therapy sessions per week, we instill a high level of accountability for our patients in order for them to succeed in their journey to sobriety.  
                     <br /> <br />
-                    At Joser Forever, we recognize that overcoming addiction on your own may not be possible. Fortunately our treatment programs give you the path to healing/recovery. Through our outpatient program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today.  </p>
+                    At Resilient Recovery, we recognize that overcoming addiction on your own may not be possible. Fortunately our treatment programs give you the path to healing/recovery. Through our outpatient program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today.  </p>
                     </Fade>
                 <div>
                 <Link to="/treatment">

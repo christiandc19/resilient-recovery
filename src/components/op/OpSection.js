@@ -81,7 +81,7 @@ const OpSection = () => {
         <br/><br/>
 
         <p>
-        At Bakersfield Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Resilient Recovery, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Partial Hospitalization Program - IOP</p></li>
