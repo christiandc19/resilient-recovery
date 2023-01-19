@@ -38,20 +38,19 @@
 }
 .navbar li {
     width: max-content;
-    padding: 1rem;
+    padding: .3rem 1rem;
     font-weight: 400;
     color: #fff;
 }
 
-
-
   .menu-item .sub__menus li a {
-    color:var(--primary-color);
+    color: #353535;
+    font-size: 13px;
     padding: -1rem ;
   }
 
   .menu-item .sub__menus li a:hover {
-    color:var(--primary-color) !important;
+    color: rgb(255, 123, 0) !important;
   }
 
   li .submenu-header {
@@ -69,7 +68,7 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 280px;
+    width: 220px;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 10px;
@@ -86,7 +85,7 @@
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
-    top: 19px;
+    top: 10px;
   }
 
 

@@ -46,7 +46,7 @@ const Navbar = () => {
                 
                 <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="200px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="130px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -60,10 +60,12 @@ const Navbar = () => {
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/IOP`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/OP`}> Outpatient Program </NavLink> </li>
+                            <br/>
                             <li className='submenu-header'>MENTAL HEALTH</li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/IOP`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/OP`}> Outpatient Program </NavLink> </li>
+                            <br/>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Jobs Program </NavLink> </li>
 
                         </ul>
