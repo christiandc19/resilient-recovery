@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resilient-recovery/static/css/main.ae931dc6.css",
-    "main.js": "/resilient-recovery/static/js/main.5353910e.js",
+    "main.css": "/resilient-recovery/static/css/main.d085aa77.css",
+    "main.js": "/resilient-recovery/static/js/main.88f72432.js",
     "static/media/hero-vbg.mp4": "/resilient-recovery/static/media/hero-vbg.10d89b7e6cf823bb286e.mp4",
     "static/media/footer-bg.webp": "/resilient-recovery/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/treatment-1.jpg": "/resilient-recovery/static/media/treatment-1.9b93aa36872433733c19.jpg",
@@ -31,11 +31,11 @@
     "static/media/aetna.png": "/resilient-recovery/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/resilient-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/resilient-recovery/index.html",
-    "main.ae931dc6.css.map": "/resilient-recovery/static/css/main.ae931dc6.css.map",
-    "main.5353910e.js.map": "/resilient-recovery/static/js/main.5353910e.js.map"
+    "main.d085aa77.css.map": "/resilient-recovery/static/css/main.d085aa77.css.map",
+    "main.88f72432.js.map": "/resilient-recovery/static/js/main.88f72432.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae931dc6.css",
-    "static/js/main.5353910e.js"
+    "static/css/main.d085aa77.css",
+    "static/js/main.88f72432.js"
   ]
 }
