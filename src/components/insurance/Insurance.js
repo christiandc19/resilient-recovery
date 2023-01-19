@@ -1,5 +1,4 @@
 import React from 'react'
-import './Insurance.css'
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
 
@@ -8,9 +7,9 @@ import { Link } from 'react-router-dom'
 const Insurance = () => {
     return (
         <>
-            <div className='insurance'>
+            <div className='insurance main-menu'>
                 <div className="container">
-                    <div className="content">
+                    <div className="main-menu-content">
                         <Fade left>
                             <h1>ACCEPTED INSURANCE</h1>
                         </Fade>
@@ -25,9 +24,8 @@ const Insurance = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='divider'></div>
-
+            </div>            
+            
         </>
 
     )

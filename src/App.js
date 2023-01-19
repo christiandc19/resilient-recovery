@@ -1,19 +1,16 @@
 import React from 'react'
+import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import InsuranceSection from './components/insurance/InsuranceSection';
-import ContactForm from './components/contact/ContactForm';
 import Home from './components/home/Home';
-import ServicesCards from './components/services/ServicesCards'
+
 
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
       <Home />
-      <ServicesCards />
-      <InsuranceSection />
-      <ContactForm />
       <Footer />
     </>
   );

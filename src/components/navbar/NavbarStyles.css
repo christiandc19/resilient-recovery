@@ -3,8 +3,7 @@
     height: 120px;
     position: absolute;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.7);
-    border-bottom: .5px solid white;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .navbar .container {
@@ -44,14 +43,22 @@
     color: #fff;
 }
 
+
+
   .menu-item .sub__menus li a {
-    color: #000000 !important;
-    font-weight: 400;
-    line-height: 10px;
+    color:var(--primary-color);
+    padding: -1rem ;
   }
 
   .menu-item .sub__menus li a:hover {
     color:var(--primary-color) !important;
+  }
+
+  li .submenu-header {
+    font-size: 14px;
+    color: rgb(36, 131, 27);
+    font-weight: bolder;
+    text-decoration: underline;
   }
 
 
@@ -63,7 +70,7 @@
     border: 1px solid lavender;
     border-radius: 10px;
     width: 280px;
-    /* left: -17px; */
+    left: -17px;
     padding: 2px 0 0 0;
     margin-top: 10px;
     z-index: 1000;
@@ -81,22 +88,6 @@
     position: absolute;
     top: 19px;
   }
-
-
-
-  .sub__menus__arrows:hover .sub__menus{
-    display: block;
-  }
-
-  .sub__menus__arrows__full:hover .sub__menus{
-    display: block;
-    z-index: 1000000;
-  }
-
-.menu-item .sub__menus  a {
-  padding: 7px 0 0px 0;
-  margin: 0px 5px;
-}
 
 
 
@@ -125,8 +116,7 @@
     }
 
     .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .navbar button {
@@ -137,4 +127,21 @@
         font-size: 14px;
       }
 
+      li .submenu-header {
+        font-size: 14px;
+      }
+
+      #submenu-item li {
+        padding: .2rem 1rem;
+      }
+
+      .sub__menus {
+        width: 230px;
+      }
+
 }
+
+
+
+
+

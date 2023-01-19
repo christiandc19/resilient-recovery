@@ -59,25 +59,9 @@
     }
 
     .insuranceLogos {
+        margin-top: 10rem;
         text-align: center;
         width: 100%;
     }
 }
 
-
-
-/* .card-button {
-    padding: 0.3rem;
-    margin-top: 2rem;
-    width: 9rem;
-    text-align: center;
-    border: 0.5px rgb(196, 187, 187) solid;
-    border-radius: 10px;
-    color: rgb(32, 32, 121);
-    background-color: white;
-    justify-content: center;
-} */
-
-
-
-/* END OF SERVICES CARDS */

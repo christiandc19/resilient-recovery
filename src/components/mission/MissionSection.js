@@ -1,9 +1,7 @@
 import React from 'react'
 import './MissionSection.css'
 import Fade from 'react-reveal/Fade';
-import {Link} from 'react-router-dom'
-import { Link as LinkRoll } from 'react-scroll'
-
+import ContactForm from '../contact/ContactForm'
 
 import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
@@ -18,14 +16,13 @@ const MissionSection = () => {
         <div className='mission-section'>
             <div className="container">
                 <div className="content">
-                    <h1>WHAT WE CAN PROVIDE</h1>
-
-
+                    <h1>What We Can Provide</h1>
                             <div className='flex-right'>
 
                             <Fade top>
                     <div className='thumbnail'>
-                        <div><img src= { Therapy } alt="Aetna Logo" loading="lazy" />                    
+                        <img src={ Therapy } width="640" height="150" alt="Therapy Session" loading="lazy"/>
+                        <div>                   
                         <p>Therapy and support groups for either addiction or mental health disorders</p>
                         </div>
                     </div>
@@ -34,40 +31,31 @@ const MissionSection = () => {
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                        <img src= { Staff } alt="Beacon Logo" loading="lazy" /> 
-                        <p>Compassionate staff that is dedicated to your success</p>
-  
+                    <img src={ Staff } width="640" height="150" alt="Clinic Staff" loading="lazy"/>
+                    <p>Compassionate staff that is dedicated to your success</p>
                     </div>
                     </Fade>
 
                     <Fade top>
                     <div className='thumbnail'>
-                        <img src= { Clinic } alt="Bluecross Logo" loading="lazy" />   
-                        <p>Evidence-based practices that give you the best chance of recovery</p>
-
+                    <img src={ Clinic } width="640" height="150" alt="Bluecross  Logo" loading="lazy"/>
+                    <p>Evidence-based practices that give you the best chance of recovery</p>
                     </div>
                     </Fade>
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                        <img src= { Work } alt="Cigna Logo" loading="lazy" /> 
+                    <img src={ Work } width="640" height="150" alt="People in Working Uniform" loading="lazy"/>
                         <p>There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services.</p>  
                     </div>
                     </Fade>                          
 
                     </div>
-
-                    <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to="/contact">
-                            <button>Contact Us</button>
-                        </Link>
-                    </LinkRoll>
-                    </div>
-
                 </div>
             </div>
         </div>
+
+        <ContactForm />
 
 </>
     )

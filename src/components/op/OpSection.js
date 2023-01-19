@@ -1,5 +1,4 @@
 import React from 'react'
-import './OpSection.css'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
@@ -81,7 +80,7 @@ const OpSection = () => {
         <br/><br/>
 
         <p>
-        At Resilient Recovery, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Resilient Recovery Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Partial Hospitalization Program - IOP</p></li>
