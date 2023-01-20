@@ -2,13 +2,13 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
 
-const Iop = () => {
+const MHIop = () => {
     return (
         <div className='iop submenu'>
             <div className="container">
                 <div className="content">
                     <Fade top>
-                    <h1>INTENSIVE OUTPATIENT PROGRAM (IOP)</h1>
+                    <h1>MENTAL HEALTH - INTENSIVE OUTPATIENT PROGRAM (IOP)</h1>
                     </Fade>
                     <Fade bottom>
                     <p>Our IOP enables patients to continue their day-to-day regimen while simultaneously  undergoing our best possible care. Measured on a case-by-case basis, patients may live in our treatment center, in a sober living community, or at their own home. 
@@ -26,4 +26,4 @@ const Iop = () => {
     )
 }
 
-export default Iop
+export default MHIop

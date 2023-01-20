@@ -2,19 +2,19 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import IOP from '../components/iop/Iop'
-import IopSection from '../components/iop/IopSection'
+import MHPHP from '../components/MH-php/Php'
+import MHPhpSection from '../components/MH-php/PhpSection'
 
 
-const Iop = () => {
+const Php = () => {
   return (
     <>
     <Navbar /> 
-    <IOP />
-    <IopSection />
+    <MHPHP />
+    <MHPhpSection />
     <Footer />
      </>
   )
 }
 
-export default Iop
+export default Php

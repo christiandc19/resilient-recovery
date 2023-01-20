@@ -8,7 +8,7 @@ const Op = () => {
             <div className="container">
                 <div className="content">
                     <Fade top>
-                    <h1>Outpatient Prorgam (OP)</h1>
+                    <h1>Substance Abuse - Outpatient Prorgam (OP)</h1>
                     </Fade>
                     <Fade bottom>
                     <p>The least intensive program we provide, the outpatient program does not require overnight stays at our facilities. And although there is less time required for therapy sessions per week, we instill a high level of accountability for our patients in order for them to succeed in their journey to sobriety.  
