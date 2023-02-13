@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.mh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mh .mh-content {
+    display: block;
+    position: absolute;
+    top: 30%;
+    padding: 1rem;
+}
+
+.mh h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mh h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.mh h2 {
+    font-size: 1rem;
+}
+
+.mh h1 {
+    font-size: 2rem;
+}
+
+}

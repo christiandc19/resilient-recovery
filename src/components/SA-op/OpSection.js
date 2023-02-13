@@ -6,7 +6,8 @@ import { Link as LinkRoll } from 'react-scroll'
 
 import OpSection1 from '../../assets/OpSection1.jpg'
 import OpSection2 from '../../assets/OpSection2.jpg'
-import OpSection3 from '../../assets/OpSection3.jpg'
+
+import Contact2 from '../contact/Contact2'
 
 
 const OpSection = () => {
@@ -70,46 +71,8 @@ const OpSection = () => {
     </Fade>
 </div>
 
-{/* SECTION 3 */}
 
-
-<div className='wrap'>
-    <Fade left>
-    <div className="box box-left">
-        <h1 className='header'>LEARN ABOUT OUR OTHER PROGRAMS</h1>
-        <br/><br/>
-
-        <p>
-        At Resilient Recovery Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
-        <br />
-        <ul>
-            <li><p>Partial Hospitalization Program - IOP</p></li>
-            <li><p>Intensive Outpatient Program - OP</p></li>
-            <li><p>Jobs Program</p></li>
-        </ul>
-        <br />
-        <p>Contact us today and start your journey to recovery. We are eager to help you overcome your addiction</p> 
-        <br />
-    
-        <div className='box-btn'>
-        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-            <Link to="/contact">
-               <button>Call Us</button>
-            </Link>
-        </LinkRoll>
-        </div>    
-
-    </div>
-    </Fade>
-    <Fade right>
-    <div className="box">
-        <img src={OpSection3} width="600px" height="450px" alt="Palm Springs Rehab Logo" loading="lazy" />
-    </div>
-    </Fade>
-</div>
-    
-
-
+<Contact2 />
 
     </>
   )

@@ -16,6 +16,20 @@
     margin: 1rem 0;
 }
 
+.mission-section p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.mission-section h1 {
+    padding: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+
 .flex-right {
     display: flex;
     flex-wrap: wrap;
@@ -27,14 +41,14 @@
 
 .thumbnail img {
     margin: 5px;
-    width: 200px;
     padding: 5px;
-    border: 1px solid var(--primary-color);
+    box-shadow: 10px 5px 5px rgb(129, 129, 129);
     border-radius: 1rem;
 }
 
 .thumbnail p {
-    width: 220px;
+    width: 320px;
+    text-align: center;
 }
 
 .mission-section button {
@@ -46,13 +60,17 @@
         width: 100%;
     }
 
-
     .mission-section h1 {
         font-size: 25px;
     }
 
     .mission-section p {
         font-size: 15px;
+    }
+
+    .thumbnail img {
+        width: 250px;
+        height: 150px;
     }
 }
 

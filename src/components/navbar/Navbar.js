@@ -46,7 +46,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="180px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="120px" height="40px" alt="Resilient Recovery Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -55,12 +55,12 @@ const Navbar = () => {
                     
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Program <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li className='submenu-header'>SUBSTANCE ABUSE </li>
+                            <li className='submenu-header'> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/substance-abuse`}> SUBSTANCE ABUSE </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/substance-abuse-php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-iop`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Outpatient Program </NavLink> </li>
                             <br/>
-                            <li className='submenu-header'>MENTAL HEALTH</li>
+                            <li className='submenu-header'> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health`}> MENTAL HEALTH </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li>
@@ -87,3 +87,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

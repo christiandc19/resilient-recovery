@@ -1,27 +1,31 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 
+import './Jobs.css'
+import Wave from '../../assets/waves.svg'
+
+import JobSection from '../../components/jobs/JobSection'
+
+import Contact2 from '../contact/Contact2'
+
 const Jobs = () => {
     return (
+        <>
         <div className='jobs submenu'>
-            <div className="container">
-                <div className="content">
-                    <Fade top>
-                    <h1>Jobs Prorgam</h1>
-                    </Fade>
-                    <Fade bottom>
-                    <p>We strive to assist participants to acquire the knowledge and skills needed to obtain self-sufficiency through the enhancement of their capacity for civic engagement, community leadership by securing meaningful and gratifying employment that will empower themselves, their families, which will create stronger and safer communities.  
-                    <br /> <br />
-                    Our jobs program starts with getting an ID, to helping with a resume, to coaching for the interview, transportation to the actual work site, and coaching on how to keep the job and appropriate behavior. Work is NOT an option.  </p>
-                    <br /> <br />
-                    </Fade>
+            <div className='hero-divider'>
+                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
+            </div>
 
-                    <div className='job-link'>
-                        <p>For more information for our Jobs Program, visit <a href='https://www.transitionsfortomorrow.org/'>here.</a></p>
-                    </div>
+                <div className="jobs-content">
+                    <Fade top>
+                    <h2>- OUR SERVICES</h2>
+                    <h1>EMPLOYMENT ASSISTANCE</h1>
+                    </Fade>
                 </div>
             </div>
-        </div>
+        <JobSection />
+        <Contact2 />
+        </>
     )
 }
 

@@ -1,60 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
-
-/* SECTION 1 */
-
-.treatment-1 .description1 {
+.treatment {
+    width: 100%;
+    height: 80vh;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    justify-content:center;
-    margin: auto;
-    padding: 2rem 0 4rem 0;
-}
-
-.flex-item-1 {
-    width: 550px;
-    padding: 10px;
-    text-align: justify;
-}
-
-.flex-item-2 {
-    width: 550px;
-    padding: 10px;
-    text-align: justify;
-}
-.flex-item-3 {
-    width: 550px;
-    padding: 10px;
-
-}
-
-.flex-item-3 img {
+    justify-content: center;
+    background: rgba(4, 54, 73, 0.404);
+  }
+  
+  .treatment:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets//menu-bg-treatment.jpg') no-repeat center top/cover;
+    height: 100%;
     width: 100%;
-    border-radius: 1rem;
+    z-index: -1;
+  }
+
+.treatment .treatment-content {
+    display: block;
+    position: absolute;
+    top: 40%;
+    padding: 1rem;
 }
 
-.treatment1-header {
-    font-size: 2rem;
-    margin-top: 2rem;
+
+.treatment-content h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* MEDIA QUERIES - HERO */
+
+@media screen and (max-width:940px) {
+
+.treatment h1 {
+    font-size: 3rem;
     text-align: center;
 }
 
-.treatment-1 p {
-    font-size: 16px;
+.treatment-title h1 {
+    font-size: 1.5rem;
 }
 
-.revisions p, .recreations p {
-    font-size: 16px;
-    color: white;
-    padding: 25px;
+
+}
+
+.treatment-wrap {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+  }
+  
+  .treatment-box {
+      height: auto;
+      width: 600px;
+      display: inline-block;
+      margin: 1rem;
+  }
+  
+  .treatment-wrap h1 {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .treatment-wrap li {
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
 }
+  
+  .box img {
+      border-radius: 10px;
+  }
+  
+  .treatment-wrap p {
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: justify;
+  }
+  
+  .box-btn {
+      text-align: center;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media screen and (max-width:940px) {
+  
+      /* .treatment-box img {
+          display: none;
+      } */
+  
+      .treatment-wrap p {
+          font-size: 13px;
+          text-align: justify;
+      }
+  
+      .treatment-left {
+          width: 100%;
+      }
+  
+      .treatment-left h1 {
+          font-size: 1rem;
+      }
+  
+  .treatment-left button {
+      margin: 1rem auto;
+  }
+  
+  }
 
-.revisions h1, .recreations h1 {
+
+.activity-container p {
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.activity-header {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
 }
 
 .activity-section {
@@ -97,7 +168,6 @@
     z-index: -1;
 }
 
-
 /*  */
 
 
@@ -105,43 +175,19 @@
 
 @media screen and (max-width:940px) {
 
-    .treatment .content {
+    .treatment .treatment-content {
         width: 100%;
         padding: 25px;
     }
-
 
     .treatment p {
         font-size: 14px;
     }
 
-    .service-1 {
-        margin: 1rem;
+    .activity-container p {
+    font-size: 12px;
     }
 
-    .service-1-image {
-        display: none;
-    }
 
-    .service-1-description {
-        width: 100%;    
-    }
-    
-    .service-1-description p{
-        width: 100%;   
-        font-size: 14px; 
-    }
-    
-    .service-1-description h1{
-        font-size: 25px; 
-    }
-
-    .activity-container {
-        height: 180vh;
-    }
-
-    .activity-container:before {
-        height: 180vh;
-    }
 }
 

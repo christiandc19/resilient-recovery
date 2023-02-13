@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import { Link as LinkRoll } from 'react-scroll'
 
+import Contact2 from '../contact/Contact2'
 
 import IopSection1 from '../../assets/IopSection1.jpg'
-import PhpSection2 from '../../assets/PhpSection2.jpg'
+
+import { FaRegStar } from 'react-icons/fa';
 
 
 const IopSection = () => {
@@ -25,10 +25,10 @@ const IopSection = () => {
         <p>Considered our mid-tier intensive care, the program consists of 3 hours of clinical services 3-5 days per week. Patients also participate in group therapy sessions (2 per day) with any additional sessions available if deemed necessary. We also offer several other therapeutic options, such as:</p>
         <br />
         <ul>
-            <li><p>Art therapy</p></li>
-            <li><p>Hypnotherapy</p></li>
-            <li><p>Family Theraphy</p></li>
-            <li><p>Cognitive-behavioral therapy</p></li>
+            <li><FaRegStar className='star'/> Art therapy</li>
+            <li><FaRegStar className='star'/> Hypnotherapy</li>
+            <li><FaRegStar className='star'/> Family Theraphy</li>
+            <li><FaRegStar className='star'/> ognitive-behavioral therapy</li>
         </ul>
         
 
@@ -41,47 +41,7 @@ const IopSection = () => {
     </Fade>
 </div>
     
-
-{/* SECTION 2 */}
-
-<div className='wrap'>
-
-    <Fade right>
-    <div className="box">
-        <img src={PhpSection2} width="600px" height="450px" alt="Palm Springs Rehab Logo" loading="lazy" />
-    </div>
-    </Fade>
-
-    <Fade left>
-    <div className="box box-left">
-        <h1 className='header'>LEARN ABOUT OUR OTHER PROGRAMS</h1>
-        <br/><br/>
-
-        <p>
-        At Resilient Recovery Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
-        <br />
-        <ul>
-            <li><p>Partial Hospitalization Program - IOP</p></li>
-            <li><p>Outpatient Program - OP</p></li>
-            <li><p>Jobs Program</p></li>
-        </ul>
-        <br />
-        <p>Contact us today and start your journey to recovery. We are eager to help you overcome your addiction</p> 
-        <br />
-    
-        <div className='box-btn'>
-        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-            <Link to="/contact">
-               <button>Call Us</button>
-            </Link>
-        </LinkRoll>
-        </div>    
-    </div>
-    </Fade>
-</div>
-    
-
-
+<Contact2 />
 
     </>
   )

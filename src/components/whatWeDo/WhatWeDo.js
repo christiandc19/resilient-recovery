@@ -5,7 +5,9 @@ import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import WhatWeDoImg from '../../assets/whatwedo.jpg'
+import WhatWeDoImg from '../../assets/whatwedo.png'
+import WhatWeDoImg2 from '../../assets/whatwedo2.png'
+
 
 const WhatWeDo = () => {
   return (
@@ -13,7 +15,7 @@ const WhatWeDo = () => {
 <div className='wrap'>
     <Fade left>
     <div className="box left">
-        <h1 className='title'>WHAT WE DO</h1>
+        <h1 className='header'>WHAT WE DO</h1>
         <br/>
         <p>At Resilient Recovery Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br />You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.</p>
         <br />
@@ -27,16 +29,23 @@ const WhatWeDo = () => {
                <button>Learn More</button>
             </Link>
         </LinkRoll>
+        </div>  
 
-        </div>    
     </div>
     </Fade>
 
     <Fade right>
-    <div className="box">
-        <img src={WhatWeDoImg} width="600px" height="480px" alt="Palm Springs Rehab Logo" loading="lazy" />
+    <div className="box-right">
+        <img src={WhatWeDoImg} alt="Office Team" loading="lazy" />
+    </div>
+
+
+    <div className="box-right2">
+        <img src={WhatWeDoImg2} alt="Office Staff" loading="lazy" />
     </div>
     </Fade>
+
+    
 </div>
     
     </>
